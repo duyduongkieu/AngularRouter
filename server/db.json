@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "123ac",
+      "name": "Duong",
+      "price": 100,
+      "categories": "Dep trai"
+    },
+    {
+      "id": "154ds",
+      "name": "Dung Ngou",
+      "price": 200,
+      "categories": "Xinh gái"
+    },
+    {
+      "id": "123đâsac",
+      "name": "Kieu",
+      "price": 100,
+      "categories": "Khỉ gió"
+    },
+    {
+      "id": "154dư2ds",
+      "name": "Thùy",
+      "price": 3000,
+      "categories": "Xấu xa"
+    }
+  ]
+}

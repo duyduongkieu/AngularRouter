@@ -1,0 +1,11 @@
+<p>
+  product-detail works!
+</p>
+<ul *ngIf="product">
+  <li>Name: {{product.name}}</li>
+  <li>Price: {{product.price | currency}}</li>
+  <li>Categories: {{product.categories}}</li>
+  <li>
+    <a [routerLink]="['/product', product.id, 'editProduct']">Edit product</a>
+  </li>
+</ul>
