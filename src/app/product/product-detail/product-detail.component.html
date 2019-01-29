@@ -1,7 +1,8 @@
-<p>
-  product-detail works!
-</p>
+
 <ul *ngIf="product">
+    <p>
+        product-detail {{product.name}}!
+    </p>
   <li>Name: {{product.name}}</li>
   <li>Price: {{product.price | currency}}</li>
   <li>Categories: {{product.categories}}</li>

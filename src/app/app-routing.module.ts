@@ -29,6 +29,5 @@ const routes: Routes = [
   exports: [
     RouterModule
   ]
-// tslint:disable-next-line:semicolon
 })
 export class AppRoutingModule { }

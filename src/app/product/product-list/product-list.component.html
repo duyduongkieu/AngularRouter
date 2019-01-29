@@ -1,9 +1,9 @@
 <p>
-  product-list works!
+    product-list works!
 </p>
 hey
 <ul>
-  <li *ngFor="let product of products">
-    <a [routerLink] ="['/product', product.id]">{{product.name}}</a>
-  </li>
+    <li *ngFor="let product of products">
+        <a [routerLink]="['/product', product.id]">{{product.name}}</a>
+    </li>
 </ul>
